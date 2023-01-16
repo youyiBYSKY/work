@@ -1,0 +1,91 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+#head {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: dodgerblue;
+  font-size:x-large;
+  color: white;
+  border-right: 10px;
+}
+#ban{
+  height: 60px;
+  position: relative;
+}
+#main-body{
+  display: flex;
+  height: 100%;
+  width: 1030px;
+  align-items: row;
+}
+.mleft{
+  float: left;
+  width: 230px;
+  margin-top: 105px;
+}
+.border-user {
+    border-left: 1px solid #dbdadb;
+    border-right: 1px solid #dbdadb;
+    border-bottom: 1px solid #dbdadb;
+    margin-bottom: 10px;
+}
+.user{
+  border-bottom: 1px solid #b8b6b7;
+   padding: 5px 0 15px 0;
+}
+.user-pic{
+  width: 82px;
+  height: 82px;
+  margin: auto;
+  cursor: pointer;
+}
+.user-name {
+    text-align: center;
+    color: #3E3E3E;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.address-select {
+    position: relative;
+    width: 130px;
+    margin: 10px auto 0 auto;
+}
+.address-arrow-down {
+    display: block;
+    width: 9px;
+    height: 7px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.user-handle {
+    font-size: 12px;
+    text-align: center;
+    color: #3E3E3E;
+    margin-top: 10px;
+}
+.module_link {
+    color: #3e3e3e;
+    font-size: 12px;
+}
+.border {
+    border-left: 1px solid #dbdadb;
+    border-right: 1px solid #dbdadb;
+    border-bottom: 1px solid #dbdadb;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+.sign-login {
+    border-bottom: 1px solid #b8b6b7;
+    padding: 5px 0 15px 0;
+}
