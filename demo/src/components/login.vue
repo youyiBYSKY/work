@@ -21,7 +21,7 @@
 					<div class="login">
 						<div>
 							<div>
-								<form>
+								<form action="" method="post">
 									<div class="form">
 				<!-- 用户名密码登录 -->  <div class="m-account">
 											<div class="username item">
@@ -37,14 +37,6 @@
 												<input id="password" name="passwordText" type="password" placeholder="请输入密码" title="请输入密码">
 												<input id="saltPassword" name="password" type="hidden"><!-- <a class="input_eye suffix-icon eyehide"></a> -->
 											</div>
-											<!--<div class="captcha item hide" id="captchaDiv" style="display: none;">
-												<span class="prex-icon"><img src="/authserver/csuTheme/static/web/images/captcha1.png" class="login-icon"></span> 
-												<input type="text" id="captcha" name="captcha" placeholder="请输入验证码" title="请输入验证码" maxlength="10">
-												<span class="captcha-img">
-													<img id="captchaImg" alt="验证码错误" height="30px"><a class="mask-inner captcha-refresh" onclick="reloadCaptcha(true)" href="javascript:void(0);">刷新</a>
-												</span>
-											</div>
-										-->
 											<div class="m-rememberMe">
 												<input type="checkbox" name="rememberMe" id="rememberMe" value="true" style="width:15px;margin-right:5px;">
 												<span>7天免登录</span>
@@ -54,8 +46,8 @@
 											<span id="showErrorTip" class="form-error text-ellipsis"></span>
 											<span id="showWarnTip" class="form-warn"></span>
 										</div>
-										<div class="botton">
-											<a id="login_submit" href="javascript:void(0);" class="login-btn">登录</a>
+										<div class="botton" >
+											<button id="login_submit" class="login-btn">登录</button>
 										</div>
 									</div>
 								</form>
@@ -239,6 +231,7 @@
 #rememberMe {
     margin-left: 0;
     height: auto;
+	margin-top: 10px;
 }
 .btn {
     margin-top: 30px;
